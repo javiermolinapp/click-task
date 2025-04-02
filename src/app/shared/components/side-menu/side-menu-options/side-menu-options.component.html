@@ -1,0 +1,9 @@
+
+
+<mat-nav-list>
+
+  @for (item of menuItems(); track item.label) {
+    <shared-menu-item [item]="item" [isCollapsed]="isCollapsed()"></shared-menu-item>
+  }
+
+</mat-nav-list>

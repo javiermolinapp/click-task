@@ -1,0 +1,28 @@
+<shared-toolbar (isCollapsed)="isCollapsedSet($event)"></shared-toolbar>
+
+
+<mat-sidenav-container >
+
+  <mat-sidenav opened mode="side" [style.width]="sideMenuWidth()" class="overflow-x-hidden" >
+    <shared-side-menu [isCollapsed]="isCollapsed()"></shared-side-menu>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="content" [style.margin-left]="sideMenuWidth()">
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

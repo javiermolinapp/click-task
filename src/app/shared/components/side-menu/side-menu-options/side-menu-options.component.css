@@ -1,0 +1,26 @@
+
+/* .mat-mdc-nav-list .mat-mdc-list-item {
+  border-radius: 0px;
+}
+
+.menu-item{
+  border-left: 5px solid;
+  border-left-color: rgba(0, 0, 0, 0) ;
+}
+
+
+.selected-menu-item{
+  border-left: 5px solid;
+  border-left-color:forestgreen ;
+}
+
+
+:host * {
+  transition: all 500ms ease-in-out;
+} */
+
+/* SI LO DE ARRIBA NO FUNCIONA HAY QUE FORZARLO CON EL ng-deep
+
+/* ::ng-deep .mat-mdc-nav-list .mat-mdc-list-item {
+  border-radius: 0px;
+} */

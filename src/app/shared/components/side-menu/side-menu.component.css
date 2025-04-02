@@ -1,0 +1,10 @@
+::ng-deep .mat-drawer-inner-container{
+  border-radius: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: rgb(225, 247, 225);
+
+}
+
+
+
